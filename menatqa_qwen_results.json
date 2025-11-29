@@ -1,0 +1,61 @@
+{
+  "model_name": "Qwen/Qwen3-0.6B",
+  "dataset_info": {
+    "name": "MenatQA",
+    "total_questions_processed": 999,
+    "hop_distribution": {
+      "3-hop": 698,
+      "4+-hop": 166,
+      "2-hop": 135,
+      "1-hop": 0
+    }
+  },
+  "answer_accuracy_metrics": {
+    "2-hop": {
+      "count": 135,
+      "EM": 0.037037037037037035,
+      "F1": 0.04563281126757271,
+      "BLEU": 0.00922672264111773
+    },
+    "3-hop": {
+      "count": 698,
+      "EM": 0.02005730659025788,
+      "F1": 0.03774558392189223,
+      "BLEU": 0.0075544410096661735
+    },
+    "4+-hop": {
+      "count": 166,
+      "EM": 0.0,
+      "F1": 0.03752510960471012,
+      "BLEU": 0.007282629341977672
+    },
+    "overall": {
+      "count": 999,
+      "EM": 0.01901901901901902,
+      "F1": 0.038774790083068035,
+      "BLEU": 0.007735259111177355
+    }
+  },
+  "reasoning_path_verification_metrics": {
+    "CoT-EM": 0.006006006006006006,
+    "CoT-Partial": 0.006006006006006006,
+    "Hop-Match-Rate": 0.09732467948496129,
+    "CoT-EM by Category": {
+      "2-hop": 0.0,
+      "3-hop": 0.008595988538681949,
+      "4+-hop": 0.0
+    },
+    "CoT-Partial by Category": {
+      "2-hop": 0.0,
+      "3-hop": 0.008595988538681949,
+      "4+-hop": 0.0
+    },
+    "Total Questions Evaluated for Step Verification": 999
+  },
+  "strict_cot_em_overall": 0.0,
+  "strict_cot_em_by_category": {
+    "2-hop": 0.0,
+    "3-hop": 0.0,
+    "4+-hop": 0.0
+  }
+}
