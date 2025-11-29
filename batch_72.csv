@@ -1,0 +1,11 @@
+original_id,original_question,modified_question,original_answer,modified_answer
+711,Who was John Derek 's spouse from 1968 to 1974?,Who was John Derek 's spouse from 2068 to 1974?,Linda Evans,
+712,Who was John Derek 's spouse from 1976 to 1988?,Who was John Derek 's spouse from 2076 to 1988?,Bo Derek,
+713,Which school did Gabby Giffords go to in 1993?,Which school did Gabby Giffords go to in 2192.3?,Scripps College in California,
+714,Which team did Nicky Featherstone play for from 2006 to 2009?,Which team did Nicky Featherstone play for from 2206 to 2009?,Hull Citys,
+715,Which team did the player Nicky Featherstone belong to from 2009 to 2010?,Which team did the player Nicky Featherstone belong to from 2009 to 2211.0?,Hull City,
+716,Nicky Featherstone played for which team from 2011 to 2012?,Nicky Featherstone played for which team from 2211 to 2012?,Hereford United,
+717,Nicky Featherstone played for which team from 2014 to 2015?,Nicky Featherstone played for which team from 2214 to 2015?,Scunthorpe United,"Nicky Featherstone played for the team from 2214 to 2015. Step 2: Since the year 2015 is earlier than 2214, the team must be the one from 2015 to 2214. Final Answer: 2015 to 2214"
+718,Where was Peter DeFazio educated in 1965?,Where was Peter DeFazio educated in 2161.5?,Tufts University,The University of Chicago.
+719,Which position did Pat Duncan hold from 1996 to 1999?,Which position did Pat Duncan hold from 1996 to 2198.9?,Yukon Legislative Assembly,The position is the chair of the House of Lords. Step 1: The question asks for the position held by Pat Duncan from 1996 to 2198.9. Step
+720,What position did Pat Duncan take from 1999 to 2000?,What position did Pat Duncan take from 2099 to 2000?,Leader of the Official Opposition,The position was a manager.

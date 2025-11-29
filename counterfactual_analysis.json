@@ -1,0 +1,9 @@
+{
+  "overall_metrics": {
+    "total_pairs": 999,
+    "change_propagation_rate": 0.6766766766766766,
+    "reasoning_adaptation_rate": 0.990990990990991,
+    "answer_adjustment_rate": 0.998998998998999,
+    "avg_step_consistency": 0.8990990990990991
+  }
+}
