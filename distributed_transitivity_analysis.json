@@ -1,0 +1,36 @@
+{
+  "forward_vs_backward_alignment": {
+    "high_consistency": [],
+    "medium_consistency": [
+      {
+        "question_id": 295,
+        "question": "Which team did the player Giles Ecclestone belong to from 2002 to 2004?",
+        "answer": "Cambridgeshire",
+        "complexity": "1-hop",
+        "forward_steps": [
+          "Identify the team they played for.",
+          "Identify the year they played for the team.",
+          "Determine if the team they played for was the same as the team they belong to.",
+          "The player is Giles Ecclestone.",
+          "Determine if the team they belong to is the same as the team they played for.",
+          "Provide the answer.",
+          "Giles Ecclestone.",
+          "The player's name is Giles Ecclestone.",
+          "The team is the same as the team they played for, which is the same as the team they belong to.",
+          "The player played for the team from"
+        ],
+        "backward_steps": [
+          "Identify the year in which the player played.",
+          "Determine the location of the team the player played for.",
+          "Identify the location and determine if the answer is correct.",
+          "Cambridgeshire",
+          "The name of the player is Giles Ecclestone.",
+          "The player played from 2002 to 2004.",
+          "Identify the location of the team the player played for. The player played for a team in Cambridgeshire.",
+          "The answer is correct."
+        ],
+        "consistency_score": 0.425,
+        "transitivity_score": 0.49999999999999994,
+        "forward_step_count": 10,
+        "backward_step_count": 8,
+        "reasoning_chain": 
