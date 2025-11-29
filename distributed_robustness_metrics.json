@@ -1,0 +1,62 @@
+{
+  "token_shuffle": {
+    "exact_match_drop": 0.002002002002002002,
+    "cot_em_drop": -0.007807807807807876,
+    "semantic_consistency": 0.3682898966229283,
+    "reasoning_consistency": 0.33090934137457373,
+    "confidence_degradation": -0.002802802802802762,
+    "robustness_score": 0.7415815893412422,
+    "baseline_em": 0.011011011011011011,
+    "variant_em": 0.009009009009009009,
+    "baseline_cot": 0.4163163163163185,
+    "variant_cot": 0.42412412412412637
+  },
+  "distractor_injection": {
+    "exact_match_drop": -0.002002002002002002,
+    "cot_em_drop": 0.007507507507507505,
+    "semantic_consistency": 0.34475223211552786,
+    "reasoning_consistency": 0.33736802224708506,
+    "confidence_degradation": 0.0033033033033034176,
+    "robustness_score": 0.7347723992208708,
+    "baseline_em": 0.011011011011011011,
+    "variant_em": 0.013013013013013013,
+    "baseline_cot": 0.4163163163163185,
+    "variant_cot": 0.408808808808811
+  },
+  "rephrasing": {
+    "exact_match_drop": 0.001001001001001001,
+    "cot_em_drop": 0.01301301301301333,
+    "semantic_consistency": 0.3496095908484853,
+    "reasoning_consistency": 0.337046557834666,
+    "confidence_degradation": -0.0010010010010008674,
+    "robustness_score": 0.7331270255324259,
+    "baseline_em": 0.011011011011011011,
+    "variant_em": 0.01001001001001001,
+    "baseline_cot": 0.4163163163163185,
+    "variant_cot": 0.40330330330330516
+  },
+  "semantic_noise": {
+    "exact_match_drop": 0.0,
+    "cot_em_drop": 0.013213213213213226,
+    "semantic_consistency": 0.34873275154489103,
+    "reasoning_consistency": 0.32814455069702486,
+    "confidence_degradation": -0.0005005005005004337,
+    "robustness_score": 0.7314114964844192,
+    "baseline_em": 0.011011011011011011,
+    "variant_em": 0.011011011011011011,
+    "baseline_cot": 0.4163163163163185,
+    "variant_cot": 0.40310310310310526
+  },
+  "combined": {
+    "exact_match_drop": 0.001001001001001001,
+    "cot_em_drop": -0.006006006006006037,
+    "semantic_consistency": 0.33737875608293477,
+    "reasoning_consistency": 0.3272772596213694,
+    "confidence_degradation": -0.005305305305305152,
+    "robustness_score": 0.7344327046423624,
+    "baseline_em": 0.011011011011011011,
+    "variant_em": 0.01001001001001001,
+    "baseline_cot": 0.4163163163163185,
+    "variant_cot": 0.42232232232232453
+  }
+}
